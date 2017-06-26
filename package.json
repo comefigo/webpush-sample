@@ -1,0 +1,25 @@
+{
+    "name": "webpush-sample",
+    "version": "1.0.0",
+    "description": "browser nortification by web push api",
+    "main": "app.js",
+    "scripts": {
+        "start": "node ./node_modules/nodemon/bin/nodemon.js -L app.js"
+    },
+    "keywords": [
+        "web",
+        "push",
+        "html5",
+        "browser"
+    ],
+    "author": "comefigo",
+    "license": "ISC",
+    "dependencies": {
+        "body-parser": "^1.17.2",
+        "dotenv": "^4.0.0",
+        "express": "^4.15.3",
+        "jsonfile": "^3.0.0",
+        "nodemon": "^1.11.0",
+        "web-push": "^3.2.2"
+    }
+}

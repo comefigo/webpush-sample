@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <title>Registry Web push</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="nortice-push-area" style="width:100%; height: 50px; text-align: center; line-height: 50px; background-color: #fff462; opacity: 0.8;">
+        <a id="active-push" style="text-decoration: none; font-size: x-large; color: blue;" href="#" title="プッシュ通知">プッシュ通知を有効</a>
+        <p class="subscription-key"></p>
+    </div>
+    <h1>Registry Web push page.</h1>
+    <h2 id="webpush-status"></h2>
+    <h2>Subscription Key:</h2>
+    <p style="background-color: #c4c4c4; word-break: break-all;" id="webpush-key"></p>
+    <button id="send-push">Push Nortification</button>
+    <script type="text/javascript" src="js/webpush.js"></script>
+</body>
+
+</html>
