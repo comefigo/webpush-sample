@@ -110,6 +110,7 @@ function unsubscribeUser() {
 function updateSubscriptionOnServer(subscription) {
     console.log(subscription);
     webpushKey.textContent = subscription ? JSON.stringify(subscription) : '未登録';
+    subscription = !subscription ? {} : subscription;
 
     saveSubscriptionState(JSON.stringify(subscription));
 }
